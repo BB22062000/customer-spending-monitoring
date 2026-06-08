@@ -1,0 +1,27 @@
+{
+    "features": [
+        "customer_age",
+        "Income",
+        "children_home",
+        "Recency",
+        "NumDealsPurchases",
+        "NumWebPurchases",
+        "NumCatalogPurchases",
+        "NumStorePurchases",
+        "NumWebVisitsMonth"
+    ],
+    "intercept": -440.61123469585937,
+    "coefficients": {
+        "customer_age": -0.6786955635098838,
+        "Income": 0.010213543541786045,
+        "children_home": -84.75295401261012,
+        "Recency": 0.05240667524104057,
+        "NumDealsPurchases": -25.072674876142717,
+        "NumWebPurchases": 35.36653637394678,
+        "NumCatalogPurchases": 60.23533295331276,
+        "NumStorePurchases": 40.8076063384243,
+        "NumWebVisitsMonth": 27.389253273122208
+    },
+    "validation_mae": 218.36041234810133,
+    "validation_rmse": 295.8188818348666
+}
